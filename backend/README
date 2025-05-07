@@ -1,0 +1,22 @@
+Backend
+
+built with **Node.js**, **Express**, and **SQLite** and supports user registration, login, JWT-based authentication
+
+تأكد من تحميل npm و sqlite 
+What USed :
+Node.js + Express
+SQLite (file-based)
+bcryptjs for password hashing
+jsonwebtoken (JWT) for authentication
+dotenv for environment management
+
+What to do to run backend: 
+npm install 
+Create .env and put "PORT=5000
+JWT_SECRET=your_super_secret_jwt_key
+DB_PATH=db/nonprofit.db "
+
+For dev mode while in backend dir run ==> npm run dev
+
+Verify Database Location
+Run this command to check the actual database ==> sqlite3 ./db/nonprofit.db "SELECT * FROM users;"
